@@ -1,1 +1,19 @@
-# This is my local repo 
+# Git push and pull Commands
+To push all repo on git hub 
+
+1) git init
+2) git config --local user.name 'Github Username'
+3) git config --local user.email 'Github Mail Id'
+4) git remote add origin "Your github RepoLink"
+5) git add .
+6) git commit -m 'addNewFile'
+7) git push origin 'Branch Name'
+
+
+how to pull repo from github in your local system
+
+1) git init
+2) git config --local user.name 'Github Username'
+3) git config --local user.email 'Github Mail Id'
+4) git remote add origin "Your github RepoLink"
+5) git pull origin "Branch Name"
